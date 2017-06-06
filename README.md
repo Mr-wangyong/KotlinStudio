@@ -8,7 +8,7 @@ Google IO大会将Kotlin定位为Android开发第一语言,作为一个合格的
   
     打开AndroidStudio plugins,搜索`Kotlin`,安装插件即可(注:很多教程上需要装`Kotlin Android Extensions`,但是如今`kotlin`插件已经集成了`Kotlin Android Extensions`,只需要装一个`kotlin`即可)
 
-![image](http://note.youdao.com/favicon.ico)
+![image](a.png)
 
 2. 创建一个Androidstudio项目,选择空模板即可.
 2. 在**项目的build.gradle**(Project gradle) 加上`kotlin`编译支持,写这篇博客时最新版本的`kotlin`为`1.1.2-3`,为了统一管理版本,我们定义`ext.kotlin_version = "1.1.2-3"`
@@ -104,7 +104,11 @@ dependencies {
 
 4. 将Java代码转换成kotlin代码
 
-打开MainActivity,选择code -->convert java file to kotlin(可以顺便记一下快捷键),将Java代码转换成kotlin代码;转换后如下:
+打开MainActivity,选择code -->convert java file to kotlin(可以顺便记一下快捷键),将Java代码转换成kotlin代码;
+
+![image](b.png)
+
+转换后如下:
 
 ```
 class MainActivity : AppCompatActivity() {
